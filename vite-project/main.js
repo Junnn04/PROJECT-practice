@@ -9,6 +9,7 @@ let min = 1;
 let max = 100;
 
 check.addEventListener('click',function(e){
+  e.preventDefault();
   if(num.value==""){
     alert("請輸入內容");
     return;
